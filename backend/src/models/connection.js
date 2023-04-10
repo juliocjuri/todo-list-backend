@@ -1,5 +1,6 @@
 const mysql = require('mysql2/promise');
 
+require('dotenv').config()
 //Como já fizemos a configuração do dotenv no server, não é necessário fazê-la de novo
 
 const connection = mysql.createPool({
